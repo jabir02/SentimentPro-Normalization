@@ -1,0 +1,31 @@
+{
+  "version": "v3_max_safe_resource_expansion",
+  "headers_seen": [
+    "Rating",
+    "Review",
+    "Product Name",
+    "Product Category",
+    "Emotion",
+    "Data Source",
+    "Sentiment"
+  ],
+  "resource_counts": {
+    "banglish_map": 1453,
+    "dialect_map": 285,
+    "phrase_map": 124,
+    "protected_keep_words": 4238,
+    "english_preserve_words": 740
+  },
+  "dataset_extracted_counts": {
+    "unique_roman_review_tokens": 25452,
+    "unique_product_tokens": 4206,
+    "unique_category_tokens": 200,
+    "candidate_rows_exported": 1500
+  },
+  "safety_policy": [
+    "Protected product/category/source metadata tokens were added to keep_words.",
+    "High-confidence Banglish mappings were expanded and spelling variants were generated only from trusted entries.",
+    "English preserve list was expanded to reduce accidental conversion of real English review terms.",
+    "Unreviewed frequent Roman tokens are exported for manual review instead of being force-mapped."
+  ]
+}

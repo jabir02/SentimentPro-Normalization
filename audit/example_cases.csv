@@ -1,0 +1,5 @@
+﻿raw_text,expected_behavior
+"good product but camera valo na","English/product words preserved; valo na normalized"
+"onek bhalo product fast delivery","Banglish sentiment phrase normalized; domain words preserved"
+"redmi c55 4/128GB khub valo","model/spec protected; khub valo normalized"
+"ভালো না, delivery slow","Bangla negation preserved; English domain terms preserved"
